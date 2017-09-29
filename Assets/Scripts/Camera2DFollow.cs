@@ -27,11 +27,6 @@ public class Camera2DFollow : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if(GameObject.Find("Player(Clone)")!= null)
-		{
-			target = GameObject.Find("Player(Clone)").transform;
-		}
-
 		if (target == null) {
 			FindPlayer ();
 			return;
@@ -57,11 +52,10 @@ public class Camera2DFollow : MonoBehaviour {
 		
 		lastTargetPosition = target.position;		
 	}
-		
 
 	void FindPlayer () {
 		if (nextTimeToSearch <= Time.time) {
-			GameObject searchResult = GameObject.FindGameObjectWithTag ("Player(Clone)");
+			GameObject searchResult = GameObject.FindGameObjectWithTag ("Player");
 			if (searchResult != null)
 				target = searchResult.transform;
 			nextTimeToSearch = Time.time + 0.5f;

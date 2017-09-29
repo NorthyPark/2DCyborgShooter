@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DCyborgShooter", "Assembly
 EndProject
 Project("{BF08D8B3-C323-0AAA-087D-B4570F74B3D6}") = "2DCyborgShooter", "Assembly-UnityScript.unityproj", "{8B1F06EB-0264-55B7-49D7-1595B69E4BB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DCyborgShooter", "Assembly-CSharp-Editor.csproj", "{6397903D-6CB6-8197-290C-2E3E42BC776E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{8B1F06EB-0264-55B7-49D7-1595B69E4BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B1F06EB-0264-55B7-49D7-1595B69E4BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B1F06EB-0264-55B7-49D7-1595B69E4BB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6397903D-6CB6-8197-290C-2E3E42BC776E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6397903D-6CB6-8197-290C-2E3E42BC776E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6397903D-6CB6-8197-290C-2E3E42BC776E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6397903D-6CB6-8197-290C-2E3E42BC776E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
