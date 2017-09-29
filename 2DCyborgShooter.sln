@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DCyborgShooter", "Assembly-CSharp.csproj", "{95993A1B-E7BD-46F6-5DD5-2021242B9792}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DCyborgShooter", "Assembly-CSharp-firstpass.csproj", "{0A7688CB-E00A-5FB3-C0CA-3471C5C1B411}"
+EndProject
+Project("{BF08D8B3-C323-0AAA-087D-B4570F74B3D6}") = "2DCyborgShooter", "Assembly-UnityScript.unityproj", "{8B1F06EB-0264-55B7-49D7-1595B69E4BB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95993A1B-E7BD-46F6-5DD5-2021242B9792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95993A1B-E7BD-46F6-5DD5-2021242B9792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95993A1B-E7BD-46F6-5DD5-2021242B9792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95993A1B-E7BD-46F6-5DD5-2021242B9792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A7688CB-E00A-5FB3-C0CA-3471C5C1B411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A7688CB-E00A-5FB3-C0CA-3471C5C1B411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A7688CB-E00A-5FB3-C0CA-3471C5C1B411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A7688CB-E00A-5FB3-C0CA-3471C5C1B411}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B1F06EB-0264-55B7-49D7-1595B69E4BB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B1F06EB-0264-55B7-49D7-1595B69E4BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B1F06EB-0264-55B7-49D7-1595B69E4BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B1F06EB-0264-55B7-49D7-1595B69E4BB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
